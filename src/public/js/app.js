@@ -19,7 +19,7 @@ socket.addEventListener("message", (message) => {
 });
 
 socket.addEventListener("close", () => {
-  console.log("Disconnected to Server ❌");
+  console.log("Disconnected from Server ❌");
 });
 
 function handleSubmit(event) {
